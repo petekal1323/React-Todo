@@ -1,5 +1,5 @@
 import { useState,useEffect } from 'react';
-import './App.css';
+import './App.scss';
 import './Todo';
 import { Button, FormControl, Input, InputLabel } from '@material-ui/core';
 import Todo from './Todo';
@@ -34,13 +34,13 @@ function App() {
 
   return (
     <div className="App">
-      <h1>To Do</h1>
+      <h1>Shopping List</h1>
       <form>
       <FormControl className='form-control'>
-        <InputLabel>Write a ToDo</InputLabel>
+        <InputLabel>Add Item</InputLabel>
         <Input value={input} onChange={event => setInput(event.target.value)}/>
 
-      <Button disabled={!input} className='addTodoBtn' variant="contained" color="primary" type='submit' onClick={addTodo}>Add Todo</Button>
+      <Button disabled={!input} className='addTodoBtn' variant="contained" color="primary" type='submit' onClick={addTodo}>Add Item</Button>
       </FormControl> 
     </form>
       

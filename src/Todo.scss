@@ -1,0 +1,15 @@
+.todo__list{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    max-width: 19rem !important;
+    margin: 0 auto !important;
+    li{
+        display: block !important;
+        text-decoration: none !important;
+        padding: 0 !important;
+    }
+    button{
+        width: 10rem !important;
+    }
+}

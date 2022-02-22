@@ -40,7 +40,7 @@ function App() {
         <InputLabel>Add Item</InputLabel>
         <Input value={input} onChange={event => setInput(event.target.value)}/>
 
-      <Button disabled={!input} className='addTodoBtn' variant="contained" color="primary" type='submit' onClick={addTodo}>Add Item</Button>
+      <Button disabled={!input} className='addTodoBtn' variant="outlined" color="primary" type='submit' onClick={addTodo}>Add Item</Button>
       </FormControl> 
     </form>
       

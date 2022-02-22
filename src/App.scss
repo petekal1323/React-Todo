@@ -5,25 +5,25 @@
 }
 
 .App {
-  //padding: 3.5rem;
+  padding: 3.5rem;
   text-align: center;
   width: 100vw;
   height: 100vh;
   background-color: #8affef;
 }
 
-.App::before {    
-  content: "";
-  background-image: url('./imgs/shopping-img.jpg');
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.45;
-}
+// .App::before {    
+//   content: "";
+//   background-image: url('./imgs/shopping-img.jpg');
+//   background-size: cover;
+//   background-position: center;
+//   position: absolute;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   opacity: 0.45;
+// }
 
 
 form{
